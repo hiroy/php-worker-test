@@ -1,2 +1,2 @@
-worker: while true; do php worker.php; sleep 1; done
+worker: sh boot_worker.sh
 
