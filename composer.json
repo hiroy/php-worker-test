@@ -1,0 +1,7 @@
+{
+    "require": {
+        "php": "~5.5.0",
+        "ext-pcntl": "*",
+        "travail/parallel-prefork": "0.1.*"
+    }
+}
