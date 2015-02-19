@@ -2,14 +2,8 @@
     "require": {
         "php": "~5.5.0",
         "ext-pcntl": "*",
-        "clover/worker": "1.0.*-dev"
+        "clover/worker": "1.0.*@dev"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:hiroy/clover-worker.git"
-        }
-    ],
     "autoload": {
         "psr-0": {
             "App": "src/"

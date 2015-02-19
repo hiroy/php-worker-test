@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "48b4c8d70dbafd76daf7a8958b307105",
+    "hash": "4a3a67120329d1ed644380ab241b1a14",
     "packages": [
         {
             "name": "clover/worker",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hiroy/clover-worker.git",
-                "reference": "5faaff6e80495a38a2d6eb3f2c6ba054398d9cc9"
+                "reference": "b4f343f5a284128f15ff389e2e4713b48148b745"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hiroy/clover-worker/zipball/5faaff6e80495a38a2d6eb3f2c6ba054398d9cc9",
-                "reference": "5faaff6e80495a38a2d6eb3f2c6ba054398d9cc9",
+                "url": "https://api.github.com/repos/hiroy/clover-worker/zipball/b4f343f5a284128f15ff389e2e4713b48148b745",
+                "reference": "b4f343f5a284128f15ff389e2e4713b48148b745",
                 "shasum": ""
             },
             "require": {
@@ -36,6 +36,7 @@
                     "Clover": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -47,11 +48,7 @@
             ],
             "description": "Class for worker implementation",
             "homepage": "https://github.com/hiroy/clover-worker",
-            "support": {
-                "source": "https://github.com/hiroy/clover-worker/tree/master",
-                "issues": "https://github.com/hiroy/clover-worker/issues"
-            },
-            "time": "2015-02-19 12:15:30"
+            "time": "2015-02-19 12:44:44"
         },
         {
             "name": "travail/parallel-prefork",
