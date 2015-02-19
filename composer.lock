@@ -4,8 +4,55 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2c9045601063149135221c4e834c4cf1",
+    "hash": "48b4c8d70dbafd76daf7a8958b307105",
     "packages": [
+        {
+            "name": "clover/worker",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hiroy/clover-worker.git",
+                "reference": "5faaff6e80495a38a2d6eb3f2c6ba054398d9cc9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hiroy/clover-worker/zipball/5faaff6e80495a38a2d6eb3f2c6ba054398d9cc9",
+                "reference": "5faaff6e80495a38a2d6eb3f2c6ba054398d9cc9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcntl": "*",
+                "php": ">=5.4",
+                "travail/parallel-prefork": "0.1.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Clover": "src/"
+                }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Hiroyuki Yamaoka",
+                    "email": "yamaoka@10mado.jp"
+                }
+            ],
+            "description": "Class for worker implementation",
+            "homepage": "https://github.com/hiroy/clover-worker",
+            "support": {
+                "source": "https://github.com/hiroy/clover-worker/tree/master",
+                "issues": "https://github.com/hiroy/clover-worker/issues"
+            },
+            "time": "2015-02-19 12:15:30"
+        },
         {
             "name": "travail/parallel-prefork",
             "version": "v0.1.0",
@@ -45,10 +92,13 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "clover/worker": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
+        "php": "~5.5.0",
         "ext-pcntl": "*"
     },
     "platform-dev": []
