@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hiroy/clover-worker.git",
-                "reference": "af487ce72d5e198fdd9915b4be8477eb23b092dd"
+                "reference": "aedf069067703edf7f896dd1b59baf25b1cb9d8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hiroy/clover-worker/zipball/af487ce72d5e198fdd9915b4be8477eb23b092dd",
-                "reference": "af487ce72d5e198fdd9915b4be8477eb23b092dd",
+                "url": "https://api.github.com/repos/hiroy/clover-worker/zipball/aedf069067703edf7f896dd1b59baf25b1cb9d8b",
+                "reference": "aedf069067703edf7f896dd1b59baf25b1cb9d8b",
                 "shasum": ""
             },
             "require": {
@@ -48,7 +48,7 @@
             ],
             "description": "Class for worker implementation",
             "homepage": "https://github.com/hiroy/clover-worker",
-            "time": "2015-02-20 02:10:59"
+            "time": "2015-02-20 05:04:26"
         },
         {
             "name": "travail/parallel-prefork",
